@@ -27,3 +27,4 @@ for i in range(0, 6):
                 x_path = '//*[@id="section_body"]/ul[{}]/li[{}]/dl/dt[2]/a'.format(k, l)
                 title = driver.find_element_by_xpath(x_path).text
                 print(title)
+                print(title)
